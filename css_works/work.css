@@ -1,0 +1,125 @@
+h1{
+    color: floralwhite;
+    text-align:center;
+}
+body{
+    background-color: black;
+}
+div{
+   border: 1px solid;
+   height: 119px;
+   width: 83px;
+    
+}
+.box1{
+    background-color: rgb(53, 52, 52);
+    margin-top: 63px;
+    margin-left: 478px;
+}
+.box2{
+    background-color: rgb(44, 68, 51);
+    margin-top: -121px;
+    margin-left: 606px;
+}
+.box3{
+    background-color: rgb(4, 170, 73);
+    margin-top: -121px;
+    margin-left:742px;
+}
+.box4{
+    background-color: rgb(34, 110, 4);
+    margin-top: -121px;
+    margin-left: 870px;
+}
+.box5{
+    background-color: rgb(247, 250, 246);
+    margin-top: -121px;
+    margin-left: 999px;
+}
+.box6{
+    background-color: rgb(231, 61, 18);
+    margin-top:39px;
+    margin-left: 307px;
+}
+.box7{
+    background-color: rgb(151, 62, 20);
+    margin-top: -121px;
+    margin-left: 436px;
+}
+.box8{
+    background-color: rgb(109, 60, 60);
+    margin-top: -121px;
+    margin-left: 572px;
+}
+.box9{
+    background-color: rgb(52, 30, 88);
+    margin-top: -121px;
+    margin-left:706px;
+}
+.box10{
+    background-color: rgb(17, 50, 71);
+    margin-top: -121px;
+    margin-left: 840px;
+}
+.box11{
+    background-color: rgb(134, 12, 98);
+    margin-top: -121px;
+    margin-left: 976px;
+}
+.box12{
+    background-color: rgb(161, 170, 219);
+    margin-top: -121px;
+    margin-left: 1105px;
+}
+.box13{
+    background-color: rgb(199, 138, 138);
+    margin-top: 43px;
+    margin-left: 155px;
+}
+.box14{
+    background-color: rgb(118, 136, 40);
+    margin-top: -121px;
+    margin-left: 288px;
+}
+.box15{
+    background-color: rgb(27, 124, 119);
+    margin-top: -121px;
+    margin-left: 422px;
+}
+.box16{
+    background-color: rgb(70, 36, 54);
+    margin-top: -121px;
+    margin-left: 558px;
+}
+.box17{
+    background-color: rgb(165, 146, 146);
+    margin-top: -121px;
+    margin-left: 693px;
+}
+.box18{
+    background-color: rgb(72, 21, 212);
+    margin-top: -121px;
+    margin-left: 827px;
+}
+.box19{
+    background-color: rgb(6, 45, 54);
+    margin-top: -121px;
+    margin-left: 964px;
+}
+.box20{
+    background-color: rgb(134, 13, 59);
+    margin-top: -121px;
+    margin-left: 1095px;
+}
+.box21{
+    background-color: darkorchid;
+    margin-top: -121px;
+    margin-left:1221px;
+}
+
+
+
+
+
+
+

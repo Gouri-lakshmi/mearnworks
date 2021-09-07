@@ -1,0 +1,20 @@
+/*selectors
+class
+tag
+id */
+h1{
+    color: antiquewhite;
+    text-align: center;
+}
+#css{
+    color: aquamarine;
+    text-align: center;
+}
+.new{
+    color: beige;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 30%;
+}

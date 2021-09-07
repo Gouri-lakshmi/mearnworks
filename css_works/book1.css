@@ -1,0 +1,42 @@
+.book{
+    height: 305px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+ img{
+    height: 184px;
+    width: 100%;
+} 
+.book1{
+    height: 305px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.b{
+    border: black solid 1px;
+}
+.c{
+    border: 1px solid black;
+}
+button{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: orangered;
+}
+header{
+    display: flex;
+    width: 100%;
+    background: green;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 100px;
+}

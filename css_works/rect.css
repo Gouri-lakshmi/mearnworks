@@ -1,0 +1,166 @@
+.B1{
+    border: 1px solid red;
+    background-color: red;
+    width: 674px;
+    height: 479px;
+    position: relative;
+}
+.B2{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background-color:purple;
+}
+.B3{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 135px;
+    background-color:blue;
+}
+.B4{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 270px;
+    background-color:brown ;
+
+}
+.B5{
+     border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 405px;
+    background-color:palevioletred ;
+
+
+}
+.B6{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 540px;
+    background-color:green;
+
+}
+.col{
+    border: 1px solid red;
+    background-color: red;
+    width: 674px;
+    height: 479px;
+    position: relative;
+}
+.col1{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background-color:purple;
+}
+.col2{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 135px;
+    background-color:blue;
+}
+.col3{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 270px;
+    background-color:brown ;
+
+}
+.col4{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 405px;
+    background-color:palevioletred ;
+}
+.col5{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 540px;
+    background-color:green;
+}
+.rows{
+    margin-top: -997px;
+    margin-left: 783px;
+}
+.row{
+    border: 1px solid red;
+    background-color: red;
+    width: 674px;
+    height: 479px;
+    position: relative; 
+}
+.row1{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background-color:purple;
+}
+.row2{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 135px;
+    background-color:blue;
+}
+.row3{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 270px;
+    background-color:brown ;
+}
+.row4{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 405px;
+    background-color:palevioletred ;
+
+}
+.row5{
+    border: 1px solid black;
+    height: 475px;
+    width: 132px;
+    position: absolute;
+    top: 1px;
+    left: 540px;
+    background-color:green;
+}

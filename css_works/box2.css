@@ -1,0 +1,16 @@
+.b1{
+    border: 1px solid black;
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+.b2{
+    position: absolute;
+    top:100px;
+    left: 50%;
+    border: 1px solid black;
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}

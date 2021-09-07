@@ -1,0 +1,15 @@
+.row{
+    border:1px solid rgb(3, 3, 3);
+    background-color: rgb(88, 88, 126);
+    width: 400px;
+    height: 400px;
+}
+.col{
+    position: absolute;
+    top: 94px;
+    left: 105px;
+    border: 1px solid greenyellow;
+    background-color: hotpink;
+    width: 200px;
+    height: 200px;
+}

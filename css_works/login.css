@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+body{
+    text-align: center;
+}
+button{
+    width: 260px;
+    height: 30px;
+    color: azure;
+    background-color: rgb(7, 158, 52);
+}
+h1{
+    font-family: 'Josefin Slab', serif; 
+}
+div{
+    border:  1px currentColor;
+    background-color: rgba(231, 233, 238, 0.699);
+    width: 300px;
+    height: 230px;
+    margin-left: 608px;
+    margin-top: -13px;
+}
+.new{
+    border: 1px  ridge;
+    background-color: white;
+    width: 300px;
+    height:30px;
+}
+#user{
+    border:  1px ridge;
+    width: 250px;
+    height: 25px;
+    background-color: white;
+}
+#pass{
+    border: 1px ridge;
+    background-color: white;
+    width: 250px;
+    height: 25px;
+
+}
+

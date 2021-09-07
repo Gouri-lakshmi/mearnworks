@@ -1,0 +1,13 @@
+div{
+    border: 7px cornflowerblue solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: cyan;
+    width: 25%;
+}
+#new{
+    border: 7px chocolate solid;
+    font-family: fantasy;
+    background-color: rgb(20, 220, 20);
+    width: 25%;
+    color: rgb(255, 246, 246);
+}
