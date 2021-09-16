@@ -8,14 +8,14 @@ else{
 }
 //num=15:if num is divisible by 3 print fiz ,if num is divisible by 5 buz ,if num is divisible by 15 fizbuz
 var num=15;
-if(num%3==0){
-    console.log(`${num},fiz`);
+if(num%15==0){
+    console.log(`${num},fiz buz`);
 }
 else if(num%5==0){
     console.log(`${num},buz`);
 }
-else if(num%15==0){
-    console.log(`${num},fizbuz`);
+else if(num%3==0){
+    console.log(`${num},fizz`);
 }
 else{
     console.log(`negative`);
