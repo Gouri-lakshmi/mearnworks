@@ -2,12 +2,11 @@
 var i=1;
 mul=1;
 while(i<=10){
-    if(mul=i*2){
-        console.log(`${i}*2=${mul}`);
-    }
-
+    mul=i*2;
+    console.log(`${i}*2=${mul}`); 
 i++;
 }
+
 //sum of 10 numbers
 var num=10;
 var i=1;
@@ -28,8 +27,11 @@ while(i<=num){
 }
 console.log(f);
 //reverse
-var a=123;
-var rev=0;
-while(a!=0){
-    
+var num=123;
+var res="";
+while(num!=0){
+   var digit =num%10;
+   res+=digit
+   num=Math.floor(num/10) 
 }
+console.log(res);
