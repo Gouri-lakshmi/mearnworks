@@ -6,7 +6,7 @@ for(let amount of expenses){
     else{
         console.log("");
     }
-}
+} 
 //add expenses
 //add 3000rs
 expenses[1]+3000;
