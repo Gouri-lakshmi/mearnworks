@@ -7,20 +7,22 @@ var products=[
     [105,"moms-magic",45,10],
 ]
 
-//print number of items in a shop
+//print number of items in shop
 
 console.log(products.length);
 
 //print number of available item
-
 var item=0;
-if(item<products[3]){
-    products[3]++
+for(let pro of products){
+if(pro[3]>0){
+    item++
 }
-console.log(products[3].length);
+}
+console.log(item);
+
 
 //print all products name
 
-var products_names=products.map((item)=>item[1])
-console.log(products_names);
+var pro_name=products.map((item=>item[1]))
+console.log(pro_name);
     

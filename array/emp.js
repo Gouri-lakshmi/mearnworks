@@ -11,3 +11,23 @@ var employees=[
 
 var employee_names=employees.map((emp)=>emp[1])
 console.log(employee_names);
+
+//print developer details
+var emp=employees.filter(empl=>empl[3]=="developer")
+console.log(emp);
+
+//print names of ba
+var names=employees.filter(name=>name[3]=="ba").map(name=>name[1])
+console.log(names);
+
+//print developers name
+var developer=employees.filter(emp=>emp[3]=="developer").map(emp=>emp[1])
+console.log(developer);
+
+//print developer names whose exp > 6yearse(
+var exp_developer=employees.filter(exp=>(exp[3]=="developer") & ((exp[5]-exp[4])>5)).map(exp=>exp[1])
+    console.log(exp_developer);
+
+//add bonus of 500 rs for all developers
+var add_bonus=employees.filter(emp=>emp[3]=="developer").map(emp=>emp[2]+500)
+console.log(add_bonus);
