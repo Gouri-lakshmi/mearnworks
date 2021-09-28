@@ -9,15 +9,15 @@ var employees=[
 ]
 //sort employee wrt exp asc /des
 //asc order
-employees.sort((emp1,emp2)=>emp1[5]-emp2[5])
+employees.sort((emp1,emp2)=>emp2[5]-emp2[4]-(emp1[5]-emp1[4]))
 console.log(employees);
 //desc order
-employees.sort((emp1,emp2)=>emp2[5]-emp1[5])
+employees.sort((emp1,emp2)=>emp1[5]-emp1[4]-(emp2[5]-emp2[4]))
 console.log(employees);
 //sort employee with respect salary
 employees.sort((emp1,emp2)=>emp2[2]-emp1[2])
 console.log(employees);
 
 //sort developers with respect salary
-var emp_developer=employees.filter(emp=>emp[3]=="developer").sort((emp1,emp2)=>emp1[1]-emp2[2])
+var emp_developer=employees.filter(emp=>emp[3]=="developer").sort((emp1,emp2)=>emp1[2]-emp2[2])
 console.log(emp_developer);
