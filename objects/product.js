@@ -15,5 +15,17 @@ products.aval_qty+=30;
 console.log("discount" in products);
 
 //add discount:10%
-products.discount="10%";
+products["discount"]="10%";
+console.log(products);
+
+
+//check for a batch_code ids present
+//add batch_code
+
+if("batch_code" in products){
+    console.log("true");
+}
+else{
+    products.batch_code="est_2k21_09"
+}
 console.log(products);
