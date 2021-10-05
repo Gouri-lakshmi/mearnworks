@@ -231,20 +231,15 @@ var users=[
     }
   ]
 
-  //print email id and username
-  var id={}
-  for(let data of users){
-    let username=data.username
-    let email=data.email
-    if(username in id){
-      id[username].push(email)
-    }
-    else{
-      id[username]=[email]
-    }
-  }
-  console.log(id);
-
+  //print username and zipcode
+  var data={}
+  for(let user of users){
+      let u_name=user.username
+     let z_code=users.zipcode
+    data[u_name]=z_code
+     }
   
+  console.log(data);
 
-
+ 
+   

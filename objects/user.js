@@ -231,20 +231,14 @@ var users=[
     }
   ]
 
-  //print email id and username
-  var id={}
-  for(let data of users){
-    let username=data.username
-    let email=data.email
-    if(username in id){
-      id[username].push(email)
-    }
-    else{
-      id[username]=[email]
-    }
-  }
-  console.log(id);
-
+  //print username lat and lng
   
-
-
+  var data={}
+  for(let user of users){
+      let u_name=user.username
+     let lt=users.lat
+     let lg=users.lng
+    data[u_name]=lt,lg
+     }
+  
+  console.log(data);
