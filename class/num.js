@@ -37,50 +37,44 @@ class Bank{
                 ]
         },
     }
-    getAccountdetails(){
-
+    validateAccountNumber(accno){
+      return  accno in this.accounts?true:false
     }
-    authenticate(accno,password){
-if(accno in this.accounts){
-let pwd=this.accounts[accno].password
-if(pwd==password){
-    this.session["user"]=accno;
-    console.log(this.session);
-    return 1; //console.log("login success");
-}
-else{
-    return 0;
-    //console.log("invalid password");
-}
-}
-else{
-    return -1; //invaild account number
+
+    authenticate(acno,password){
+if(this.validateAccountNumber(acno)){
+    let pwd=this.accounts[acno].password
+    if(pwd==password){
+        return 1
+    }
+    else{
+        return -1
+    }
+}else {
+return 0
 }
     }
     balanceEnquiry(){
-let balance=this.accounts[this.session["user"]].balance
-console.log(balance);
+        let user=this.session["user"]
+        return this.accounts[user].balance
     }
-   fundTransfer(to_accno,amount){
-       let user=this.accounts[this.session["user"]]
-if(to_accno in this.accounts){
-if((user["balance"])>amount){
-this.accounts[user].balance-=amount;
-this.accounts[to_accno].balance+=amount;
-this.accounts[user].transactions.push({to:to_accno,ammount:amount})
- }
-else{
-    console.log("failed insufficient balance");
-}
-}
-else{
-    console.log("invalid account nob");
-}
-   }
+    fundTransfer(to_accno,amount){
+        if(this.validateAccountNumber(to_accno)){
+            let user=this.session["user"]
+            let bal=this.balanceEnquiry()
+            if(bal>amount){
+                this.accounts[user].balance-=amount
+                this.accounts[to_accno].balance+=amount
+                this.accounts[user].transactions.push({to:to_accno,amount:amount})
+            }
+            else{
+                console.log("invalid accno");
+            }
+        }
+    }
    
 }
 var obj=new Bank()
 var user=obj.authenticate(1001,"userone") 
-obj.balanceEnquiry();  
-obj.fundTransfer(1003,2000)
-//console.log(user==1? "login success":user==-1?"invalid accno":"invalid pwd");
+console.log(obj.balanceEnquiry());
+obj.fundTransfer(1001,5000)

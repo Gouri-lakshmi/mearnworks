@@ -1202,20 +1202,23 @@ var toodle=[
   ]
 
 
+ 
 
-  var data={}
-  for(tood of toodle){
-    let total=tood.userId
-    let completed=tood.completed
-    let pending=tood.pending
 
-  if(completed==true){
-    completed++
+  var finish=0;
+  var pending=0;
+  for(let tood of toodle){
+    var total=tood.id
+   
+  let tot =tood.completed
+      for(let i=0;i<[total].length;i++){
+      
+        if(tot==true){
+        finish+= [tot].length
+        }
+        else{
+           pending+=[tot].length
+        }
+        }
   }
-  else{
-    pending++
-    data[total]=completed,pending
-  }
-}
-
-console.log(data)
+  console.log(`{total:${total},finish:${finish},pending:${pending}}`);
