@@ -70,10 +70,12 @@ return 0
             else{
                 console.log("invalid accno");
             }
-        }
+        
     }
-   
 }
+}
+
+   
 var obj=new Bank()
 var user=obj.authenticate(1001,"userone") 
 console.log(obj.balanceEnquiry());
